@@ -1,0 +1,56 @@
+
+body {
+    background-image: url(https://images.pexels.com/photos/3312671/pexels-photo-3312671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-size: cover;    
+    font-weight: 300px;
+    color: white;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    font-weight: 300;
+    font-family: "lato";
+    
+}
+
+header {
+    text-align: center;
+    color: #DACDF7;
+}
+
+
+
+form {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    padding-left: 5em;
+    background-color: rgb(108, 108, 211, 0.7);
+    border-radius: 8px;
+    
+}
+
+label {
+    display: flex;
+    
+}
+
+.form-group {
+    font-weight: bold;
+    padding-top: 15px;
+    
+}
+
+input[type="text"], [type="email"], [type="number"], #dropdown, #feature  {
+    width: 80%;
+    height: 2em;
+    border-radius:5px;
+}
+
+#suggestions {
+    width: 80%;
+    height: 6em;
+    border-radius: 5px;
+}
